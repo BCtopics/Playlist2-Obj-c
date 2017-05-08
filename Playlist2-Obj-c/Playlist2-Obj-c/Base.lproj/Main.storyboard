@@ -13,7 +13,7 @@
         <!--Playlist-->
         <scene sceneID="2SN-tA-Quu">
             <objects>
-                <tableViewController id="MgQ-qT-ih6" sceneMemberID="viewController">
+                <tableViewController id="MgQ-qT-ih6" customClass="DMNListTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="iZt-Py-7x0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,7 +38,7 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="playlistCell" textLabel="FXo-eb-8VL" detailTextLabel="uLD-Jz-gZk" style="IBUITableViewCellStyleValue1" id="StX-6a-5ja">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlaylistCell" textLabel="FXo-eb-8VL" detailTextLabel="uLD-Jz-gZk" style="IBUITableViewCellStyleValue1" id="StX-6a-5ja">
                                 <rect key="frame" x="0.0" y="99.5" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="StX-6a-5ja" id="z8S-nX-oRc">
@@ -72,8 +72,15 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Playlist" id="XbO-Vo-88H">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="U6U-0Y-cU0"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="U6U-0Y-cU0">
+                            <connections>
+                                <action selector="addButtonTapped:" destination="MgQ-qT-ih6" id="UoF-fx-EDS"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="nameTextField" destination="gUw-EI-VI1" id="Pgc-Jh-5AZ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lzz-Sg-8EZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,7 +89,7 @@
         <!--Songs-->
         <scene sceneID="Sn2-i5-mjM">
             <objects>
-                <tableViewController id="YFV-fc-byL" sceneMemberID="viewController">
+                <tableViewController id="YFV-fc-byL" customClass="DMNPlaylistDetailTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="Nnq-zi-JUw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,8 +156,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Songs" id="gTI-bE-exf">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="vPP-dY-dtn"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="vPP-dY-dtn">
+                            <connections>
+                                <action selector="addButtonTapped:" destination="YFV-fc-byL" id="Niw-6C-FLV"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="artistTextField" destination="M9R-Oo-9hl" id="nHe-sN-ugk"/>
+                        <outlet property="titleTextField" destination="nq3-qf-6Nh" id="AvQ-c3-U5e"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0dC-RU-syp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
