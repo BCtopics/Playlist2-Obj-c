@@ -12,6 +12,8 @@
 		6BDCD6161EC0D3E9009767A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDCD6141EC0D3E9009767A5 /* Main.storyboard */; };
 		6BDCD6181EC0D3E9009767A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDCD6171EC0D3E9009767A5 /* Assets.xcassets */; };
 		6BDCD61B1EC0D3E9009767A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDCD6191EC0D3E9009767A5 /* LaunchScreen.storyboard */; };
+		6BDCD6281EC0DF1C009767A5 /* DMNSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDCD6271EC0DF1C009767A5 /* DMNSong.m */; };
+		6BDCD62B1EC0E28C009767A5 /* DMNPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDCD62A1EC0E28C009767A5 /* DMNPlaylist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,10 @@
 		6BDCD6171EC0D3E9009767A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BDCD61A1EC0D3E9009767A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BDCD61C1EC0D3E9009767A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDCD6261EC0DF1C009767A5 /* DMNSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNSong.h; sourceTree = "<group>"; };
+		6BDCD6271EC0DF1C009767A5 /* DMNSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNSong.m; sourceTree = "<group>"; };
+		6BDCD6291EC0E28C009767A5 /* DMNPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMNPlaylist.h; sourceTree = "<group>"; };
+		6BDCD62A1EC0E28C009767A5 /* DMNPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMNPlaylist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,8 @@
 			children = (
 				6BDCD60E1EC0D3E9009767A5 /* AppDelegate.h */,
 				6BDCD60F1EC0D3E9009767A5 /* AppDelegate.m */,
+				6BDCD6251EC0DC1B009767A5 /* ModelControllers */,
+				6BDCD6241EC0DC13009767A5 /* Models */,
 				6BDCD6231EC0D40B009767A5 /* ViewControllers */,
 				6BDCD6221EC0D3F1009767A5 /* Resources */,
 				6BDCD60B1EC0D3E9009767A5 /* Supporting Files */,
@@ -88,6 +96,24 @@
 				6BDCD6141EC0D3E9009767A5 /* Main.storyboard */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6BDCD6241EC0DC13009767A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BDCD6261EC0DF1C009767A5 /* DMNSong.h */,
+				6BDCD6271EC0DF1C009767A5 /* DMNSong.m */,
+				6BDCD6291EC0E28C009767A5 /* DMNPlaylist.h */,
+				6BDCD62A1EC0E28C009767A5 /* DMNPlaylist.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6BDCD6251EC0DC1B009767A5 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDCD6281EC0DF1C009767A5 /* DMNSong.m in Sources */,
+				6BDCD62B1EC0E28C009767A5 /* DMNPlaylist.m in Sources */,
 				6BDCD6101EC0D3E9009767A5 /* AppDelegate.m in Sources */,
 				6BDCD60D1EC0D3E9009767A5 /* main.m in Sources */,
 			);
