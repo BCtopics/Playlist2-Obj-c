@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B3E52011EC0D2C700AB7821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3E52001EC0D2C700AB7821 /* AppDelegate.swift */; };
-		6B3E52061EC0D2C700AB7821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E52041EC0D2C700AB7821 /* Main.storyboard */; };
-		6B3E52081EC0D2C700AB7821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E52071EC0D2C700AB7821 /* Assets.xcassets */; };
-		6B3E520B1EC0D2C700AB7821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3E52091EC0D2C700AB7821 /* LaunchScreen.storyboard */; };
+		6BDCD60D1EC0D3E9009767A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDCD60C1EC0D3E9009767A5 /* main.m */; };
+		6BDCD6101EC0D3E9009767A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDCD60F1EC0D3E9009767A5 /* AppDelegate.m */; };
+		6BDCD6161EC0D3E9009767A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDCD6141EC0D3E9009767A5 /* Main.storyboard */; };
+		6BDCD6181EC0D3E9009767A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDCD6171EC0D3E9009767A5 /* Assets.xcassets */; };
+		6BDCD61B1EC0D3E9009767A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BDCD6191EC0D3E9009767A5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6B3E51FD1EC0D2C700AB7821 /* Playlist2_Obj-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playlist2_Obj-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B3E52001EC0D2C700AB7821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B3E52051EC0D2C700AB7821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B3E52071EC0D2C700AB7821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6B3E520A1EC0D2C700AB7821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6B3E520C1EC0D2C700AB7821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BDCD6081EC0D3E9009767A5 /* Playlist2-Obj-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playlist2-Obj-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDCD60C1EC0D3E9009767A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BDCD60E1EC0D3E9009767A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BDCD60F1EC0D3E9009767A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BDCD6151EC0D3E9009767A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BDCD6171EC0D3E9009767A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BDCD61A1EC0D3E9009767A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BDCD61C1EC0D3E9009767A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B3E51FA1EC0D2C700AB7821 /* Frameworks */ = {
+		6BDCD6051EC0D3E9009767A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,80 +36,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B3E51F41EC0D2C700AB7821 = {
+		6BDCD5FF1EC0D3E9009767A5 = {
 			isa = PBXGroup;
 			children = (
-				6B3E51FF1EC0D2C700AB7821 /* Playlist2_Obj-c */,
-				6B3E51FE1EC0D2C700AB7821 /* Products */,
+				6BDCD60A1EC0D3E9009767A5 /* Playlist2-Obj-c */,
+				6BDCD6091EC0D3E9009767A5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6B3E51FE1EC0D2C700AB7821 /* Products */ = {
+		6BDCD6091EC0D3E9009767A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B3E51FD1EC0D2C700AB7821 /* Playlist2_Obj-c.app */,
+				6BDCD6081EC0D3E9009767A5 /* Playlist2-Obj-c.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B3E51FF1EC0D2C700AB7821 /* Playlist2_Obj-c */ = {
+		6BDCD60A1EC0D3E9009767A5 /* Playlist2-Obj-c */ = {
 			isa = PBXGroup;
 			children = (
-				6B3E52001EC0D2C700AB7821 /* AppDelegate.swift */,
-				6B3E52041EC0D2C700AB7821 /* Main.storyboard */,
-				6B3E52121EC0D2CE00AB7821 /* Resources */,
+				6BDCD60E1EC0D3E9009767A5 /* AppDelegate.h */,
+				6BDCD60F1EC0D3E9009767A5 /* AppDelegate.m */,
+				6BDCD6231EC0D40B009767A5 /* ViewControllers */,
+				6BDCD6221EC0D3F1009767A5 /* Resources */,
+				6BDCD60B1EC0D3E9009767A5 /* Supporting Files */,
 			);
-			path = "Playlist2_Obj-c";
+			path = "Playlist2-Obj-c";
 			sourceTree = "<group>";
 		};
-		6B3E52121EC0D2CE00AB7821 /* Resources */ = {
+		6BDCD60B1EC0D3E9009767A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6B3E52071EC0D2C700AB7821 /* Assets.xcassets */,
-				6B3E52091EC0D2C700AB7821 /* LaunchScreen.storyboard */,
-				6B3E520C1EC0D2C700AB7821 /* Info.plist */,
+				6BDCD60C1EC0D3E9009767A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BDCD6221EC0D3F1009767A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6BDCD6171EC0D3E9009767A5 /* Assets.xcassets */,
+				6BDCD6191EC0D3E9009767A5 /* LaunchScreen.storyboard */,
+				6BDCD61C1EC0D3E9009767A5 /* Info.plist */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		6BDCD6231EC0D40B009767A5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BDCD6141EC0D3E9009767A5 /* Main.storyboard */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6B3E51FC1EC0D2C700AB7821 /* Playlist2_Obj-c */ = {
+		6BDCD6071EC0D3E9009767A5 /* Playlist2-Obj-c */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B3E520F1EC0D2C700AB7821 /* Build configuration list for PBXNativeTarget "Playlist2_Obj-c" */;
+			buildConfigurationList = 6BDCD61F1EC0D3E9009767A5 /* Build configuration list for PBXNativeTarget "Playlist2-Obj-c" */;
 			buildPhases = (
-				6B3E51F91EC0D2C700AB7821 /* Sources */,
-				6B3E51FA1EC0D2C700AB7821 /* Frameworks */,
-				6B3E51FB1EC0D2C700AB7821 /* Resources */,
+				6BDCD6041EC0D3E9009767A5 /* Sources */,
+				6BDCD6051EC0D3E9009767A5 /* Frameworks */,
+				6BDCD6061EC0D3E9009767A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Playlist2_Obj-c";
-			productName = "Playlist2_Obj-c";
-			productReference = 6B3E51FD1EC0D2C700AB7821 /* Playlist2_Obj-c.app */;
+			name = "Playlist2-Obj-c";
+			productName = "Playlist2-Obj-c";
+			productReference = 6BDCD6081EC0D3E9009767A5 /* Playlist2-Obj-c.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6B3E51F51EC0D2C700AB7821 /* Project object */ = {
+		6BDCD6001EC0D3E9009767A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Bradley Gilmore";
 				TargetAttributes = {
-					6B3E51FC1EC0D2C700AB7821 = {
+					6BDCD6071EC0D3E9009767A5 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = CTJ2VR37F9;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 6B3E51F81EC0D2C700AB7821 /* Build configuration list for PBXProject "Playlist2_Obj-c" */;
+			buildConfigurationList = 6BDCD6031EC0D3E9009767A5 /* Build configuration list for PBXProject "Playlist2-Obj-c" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,53 +134,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 6B3E51F41EC0D2C700AB7821;
-			productRefGroup = 6B3E51FE1EC0D2C700AB7821 /* Products */;
+			mainGroup = 6BDCD5FF1EC0D3E9009767A5;
+			productRefGroup = 6BDCD6091EC0D3E9009767A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B3E51FC1EC0D2C700AB7821 /* Playlist2_Obj-c */,
+				6BDCD6071EC0D3E9009767A5 /* Playlist2-Obj-c */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6B3E51FB1EC0D2C700AB7821 /* Resources */ = {
+		6BDCD6061EC0D3E9009767A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3E520B1EC0D2C700AB7821 /* LaunchScreen.storyboard in Resources */,
-				6B3E52081EC0D2C700AB7821 /* Assets.xcassets in Resources */,
-				6B3E52061EC0D2C700AB7821 /* Main.storyboard in Resources */,
+				6BDCD61B1EC0D3E9009767A5 /* LaunchScreen.storyboard in Resources */,
+				6BDCD6181EC0D3E9009767A5 /* Assets.xcassets in Resources */,
+				6BDCD6161EC0D3E9009767A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B3E51F91EC0D2C700AB7821 /* Sources */ = {
+		6BDCD6041EC0D3E9009767A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3E52011EC0D2C700AB7821 /* AppDelegate.swift in Sources */,
+				6BDCD6101EC0D3E9009767A5 /* AppDelegate.m in Sources */,
+				6BDCD60D1EC0D3E9009767A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6B3E52041EC0D2C700AB7821 /* Main.storyboard */ = {
+		6BDCD6141EC0D3E9009767A5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6B3E52051EC0D2C700AB7821 /* Base */,
+				6BDCD6151EC0D3E9009767A5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6B3E52091EC0D2C700AB7821 /* LaunchScreen.storyboard */ = {
+		6BDCD6191EC0D3E9009767A5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6B3E520A1EC0D2C700AB7821 /* Base */,
+				6BDCD61A1EC0D3E9009767A5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,7 +189,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6B3E520D1EC0D2C700AB7821 /* Debug */ = {
+		6BDCD61D1EC0D3E9009767A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,12 +234,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		6B3E520E1EC0D2C700AB7821 /* Release */ = {
+		6BDCD61E1EC0D3E9009767A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,58 +275,55 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		6B3E52101EC0D2C700AB7821 /* Debug */ = {
+		6BDCD6201EC0D3E9009767A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CTJ2VR37F9;
-				INFOPLIST_FILE = "Playlist2_Obj-c/Info.plist";
+				INFOPLIST_FILE = "Playlist2-Obj-c/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bradleygilmore.Playlist2-Obj-c";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		6B3E52111EC0D2C700AB7821 /* Release */ = {
+		6BDCD6211EC0D3E9009767A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CTJ2VR37F9;
-				INFOPLIST_FILE = "Playlist2_Obj-c/Info.plist";
+				INFOPLIST_FILE = "Playlist2-Obj-c/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bradleygilmore.Playlist2-Obj-c";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B3E51F81EC0D2C700AB7821 /* Build configuration list for PBXProject "Playlist2_Obj-c" */ = {
+		6BDCD6031EC0D3E9009767A5 /* Build configuration list for PBXProject "Playlist2-Obj-c" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B3E520D1EC0D2C700AB7821 /* Debug */,
-				6B3E520E1EC0D2C700AB7821 /* Release */,
+				6BDCD61D1EC0D3E9009767A5 /* Debug */,
+				6BDCD61E1EC0D3E9009767A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B3E520F1EC0D2C700AB7821 /* Build configuration list for PBXNativeTarget "Playlist2_Obj-c" */ = {
+		6BDCD61F1EC0D3E9009767A5 /* Build configuration list for PBXNativeTarget "Playlist2-Obj-c" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B3E52101EC0D2C700AB7821 /* Debug */,
-				6B3E52111EC0D2C700AB7821 /* Release */,
+				6BDCD6201EC0D3E9009767A5 /* Debug */,
+				6BDCD6211EC0D3E9009767A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6B3E51F51EC0D2C700AB7821 /* Project object */;
+	rootObject = 6BDCD6001EC0D3E9009767A5 /* Project object */;
 }

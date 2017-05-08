@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Playlist2_Obj-c.xcodeproj">
+      location = "self:Playlist2-Obj-c.xcodeproj">
    </FileRef>
 </Workspace>
